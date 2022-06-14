@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Birthday wishes</title>
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body class="body_backgorund" onload="new_image()">
+	<center>
+<br> <br>
+<h2 class="text-primary font-weight-bold">Click the image to play the song. Click again to pause. Double click to replay.</h2>
+<br><br><br>
+<canvas id="canvas" height="600" width="900" onclick="sound()"></canvas>
+		<br>
+	</center>
+	<audio id="myAudio" src="audio.mp3"></audio>
+	<script src="main.js"></script>
+</body>
+</html>
